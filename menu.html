@@ -6,11 +6,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+     <!--Bootstrap CSS-->
+      <!-- build:css css/main.css -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-
     <link href="css/styles.css" rel="stylesheet">
+    <!-- endbuild -->
 </head>
 
 <body>
@@ -137,7 +138,9 @@
                     <img src="images/brownie-2857462_1920.jpg" alt="BROWNIE-ICE-CREAM"
                         style="width:800px;height:600px; align-self: center;border: 5px solid black;">
                 </div>
-                <h4 style="text-align: center;">-Ingredients-</h4>
+                <!--<h4 style="text-align: center;">-Ingredients-</h4>-->
+                <button type="button" class="collapsible" style="background-color: blanchedalmond;">-Ingredients-</button>
+                <div class="content" >
                 <ul>
                     <li>180 g butter</li>
                     <li>400 g dark chocolate</li>
@@ -147,7 +150,10 @@
                     <li>40 g cocoa powder, sifted</li>
                     <li>1 teaspoon(s) vanilla extract</li>
                 </ul>
-                <h5 style="text-align: center;">Instructions</h5>
+                </div>
+                <!--<h5 style="text-align: center;">Instructions</h5>-->
+                <button type="button" class="collapsible" style="background-color: blanchedalmond;">-Instructions-</button>
+                <div class="content" >
                 <p>
                 <ol>
                     <li>Preheat the oven to 180ο C (356ο F) set to fan.</li>
@@ -174,6 +180,7 @@
                     </ul>
                 </ol>
                 </p>
+            </div>
                 <h3>Alternative Way For Serving</h3>
                 <img src="images/brownie-2938671_1920.jpg" alt="BROWNIE-ALTERNATIVE-PRESENTATION"
                     style="width:800px;height:600px; align-self: center;border: 5px solid black;">
@@ -184,15 +191,23 @@
                 <a href="https://akispetretzikis.com/en/categories/keik/brownies" rel="author"
                     style="align-items: center;">Credits to Akis Petretzikis</a> <br />
             </div>
-            <div class="col-md-4 col-md-push-4">
-                <img class="img-responsive img-circle" src="images/brownie-3427505_640.jpg"
-                    alt="BROWNIE IN PARCHMENT PAPER">
+            <div class="gallery">
+                <a target="_blank" href="images/cupcakes-690040_640.jpg">
+                <img src="images/cupcakes-690040_640.jpg" alt="cupcakes" width="600" height="400">
+                </a>
+                <div class="desc">Upcoming Recipe Amazing Dark Chocolate Cupcakes With Cocoa Flavoured Frosting.</div>
             </div>
-            <div class="col-md-4 col-md-pull-4 ">
-                <img class="img-responsive img-circle" src="images/cupcakes-690040_640.jpg" alt="SPECIAL CUPCAKES">
+            <div class="gallery">
+                <a target="_blank" href="images/">
+                    <img src="images/pastries-756601_640.jpg" alt="creative-cookie" width="600" height="400">
+                    </a>
+                    <div class="desc">Don't forget to be creative.</div>
             </div>
-            <div class="col-md-4">
-                <img class="img-responsive img-circle" src="images/pastries-756601_640.jpg" alt="HEART-CHOCO-COOKIE">
+            <div class="gallery">
+                <a target="_blank" href="images/">
+                    <img src="images/brownie-3427505_640.jpg" alt="creative-but-simple" width="600" height="400">
+                    </a>
+                    <div class="desc">But always keep it simple.</div>
             </div>
         </div>
 
@@ -249,13 +264,13 @@
             </div>
         </div>
     </footer>
+    <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/tether/dist/js/tether.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!--<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>-->
     <script src="js/scripts.js"></script>
+    <!-- endbuild -->
 
 </body>
 

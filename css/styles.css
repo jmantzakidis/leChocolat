@@ -62,3 +62,34 @@ tr:hover{
     bottom: 0px;
     z-index: +1;
 }
+.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+desc{
+    padding: 15px;
+    text-align: center;
+}
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+  }
